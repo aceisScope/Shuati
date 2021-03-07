@@ -13,6 +13,6 @@ class Solution {
         traverse(root.right);
         sum += root.val;
         root.val = sum;
-        traverse(root.lef);
+        traverse(root.left);
     }
 }
